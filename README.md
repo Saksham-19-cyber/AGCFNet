@@ -6,7 +6,6 @@
 [![ADNI](https://img.shields.io/badge/Data-ADNI-green.svg)](https://adni.loni.usc.edu/)
 
 > **Paper:** *AGCFNet: Attention-Gated Convolutional Fusion Network for Alzheimer's Disease Staging from Structural MRI and Clinical Biomarkers*  
-> Saksham Maheshwari, Sidharth Sharma, Dr. Anurag Tiwari — Department of CSE, Thapar Institute
 
 ---
 
@@ -181,19 +180,6 @@ Activation overlays consistently highlight the **hippocampus, entorhinal cortex,
 
 ---
 
-## Citation
-
-If you use this code or paper in your research, please cite:
-
-```bibtex
-@article{maheshwari2024agcfnet,
-  title   = {AGCFNet: Attention-Gated Convolutional Fusion Network for Alzheimer's
-             Disease Staging from Structural MRI and Clinical Biomarkers},
-  author  = {Maheshwari, Saksham and Sharma, Sidharth and Tiwari, Anurag},
-  year    = {2024},
-  note    = {Thapar Institute of Engineering and Technology}
-}
-```
 
 ---
 
