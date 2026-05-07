@@ -1,0 +1,38 @@
+# ── Core scientific stack ──────────────────────────────────────────────────────
+numpy>=1.24.0
+pandas>=1.5.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ── Deep learning ─────────────────────────────────────────────────────────────
+torch>=2.0.0
+torchvision>=0.15.0          # used for StochasticDepth (torchvision.ops)
+
+# ── Medical imaging ───────────────────────────────────────────────────────────
+nibabel>=5.0.0               # NIfTI I/O
+nilearn>=0.10.0              # brain image utilities
+SimpleITK>=2.2.0             # image registration / resampling
+torchio>=0.18.0              # MRI augmentation pipeline
+monai>=1.2.0                 # medical image transforms & utilities
+
+# ── DICOM handling ────────────────────────────────────────────────────────────
+pydicom>=2.3.0               # DICOM reading (optional; dcm2niix handles conversion)
+
+# ── R data files ──────────────────────────────────────────────────────────────
+pyreadr>=0.4.7               # read ADNIMERGE .rda files
+
+# ── Interpretability ──────────────────────────────────────────────────────────
+captum>=0.6.0                # GradCAM / attribution methods
+
+# ── Notebook & visualisation ──────────────────────────────────────────────────
+jupyter>=1.0.0
+ipykernel>=6.0.0
+tqdm>=4.65.0
+
+# ── System dependency (install separately) ────────────────────────────────────
+# dcm2niix — DICOM to NIfTI converter
+#   Ubuntu/Debian: sudo apt-get install dcm2niix
+#   macOS:         brew install dcm2niix
+#   Windows:       https://github.com/rordenlab/dcm2niix/releases
