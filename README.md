@@ -57,14 +57,10 @@ T1-MRI Volume (96×112×96)
 ```
 AGCFNet/
 ├── adni_alzheimer.ipynb      # Main notebook: preprocessing → training → evaluation
-├── Convo_research_paper.pdf  # Companion paper describing AGCFNet
+├── AGCFNet_ADNI.pdf          # Companion paper describing AGCFNet
 ├── requirements.txt          # Python dependencies
 ├── README.md
-└── OUTPUTS/                  # Created at runtime
-    ├── nifti/                # DICOM → NIfTI conversions
-    ├── preprocessed/         # TorchIO-processed volumes
-    ├── experiment.log        # Training logs
-    └── checkpoints/          # Saved model weights
+└── LICENSE
 ```
 
 ---
